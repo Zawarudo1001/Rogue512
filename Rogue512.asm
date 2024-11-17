@@ -343,4 +343,5 @@ coord:
 endgame:
   lda $ff
   beq endgame
-  brk
+  dcb $00  ;equivalent to brk instruction
+  ;brk 
